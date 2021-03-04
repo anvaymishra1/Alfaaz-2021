@@ -7,29 +7,22 @@ function About() {
       <p className="About__root--title">About</p>
       <section className="About--container">
         <section className="About--textContainer">
-          Kreiva is the Annual Cultural Festival of IIIT Vadodara tentative test
-          dates are as follows : 28th - 29th October . This page is handled by
-          the students of the cultural committee of the institute. Kreiva - the
-          IIIT Vadodara's Annual Cultural Festival is a Platform to showcase the
-          best in us and to strive for more. The Fest was started in the year
-          2016 on an Intra-college level which in itself was a quite success.
-          The fest is basically a platform for students to express their
-          feelings and opinions through art, music, dance, drama, in short, the
-          mediums that connect with masses. Come; Let's Celebrate this feeling
-          of togetherness on public stage!! !! Welcome to Kreiva, IIIT Vadodara
-          !!
+          Now in it's third year, the Literature Committee IIIT Vadodara celebrates Alfaaz, the Annual Literature Festival. We invite you all to share and discuss the pleasures and challenges of written and verbal expression with a great blend -- from fiction and nonfiction to poetry and spoken-word performance.
+
+Alfaaz has a complete dose of mainstream events including open mic, poetry & microstory writing, fan fiction , spell bee and fun events such as guess the gibberish and many more. 
+The festival offers a unique opportunity to hear some of the greatest contemporary literary stalwarts together on a single platform that brings diverse thoughts & opinions, and upholds freedom of thought & expression during the five-day mega event. It does not matter if you are a reader or writer or a speaker, we have something special for all of you. With 25k+ prizes up for grab, we assure you that this will be fun for you.
         </section>
         <div className="About--imgContainer">
           <img src="/media/booklogo.svg" alt="books-logo" />
           <section className="About--imgContainer--overlay">
             <p className="About--imgContainer--book--1">
-              60 K+<span>worth prize to win</span>
+              25 K+<span>worth prize to win</span>
             </p>
             <p className="About--imgContainer--book--1">
-            14 D+<span>long fest</span>
+            7 D+<span>long fest</span>
             </p>
             <p className="About--imgContainer--book--1">
-            20+<span>events to participate</span>
+            8+<span>events to participate</span>
             </p>
           </section>
         </div>

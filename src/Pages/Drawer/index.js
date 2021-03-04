@@ -50,7 +50,7 @@ const Drawer = (props) => {
             onClick={props.closed}
             activeClassName="mobile__active"
             style={{ textDecoration: "none", color: "#2f1728" }}
-            href="https://kreiva.tk/media/brochure.pdf"
+            href="https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/brochure%2FAlfaaz%20Brochure_compressed%20(1).pdf?alt=media&token=a04e7df0-fa77-42a7-ac16-9337a310d16d"
           >
             BROCHURE
           </a>
