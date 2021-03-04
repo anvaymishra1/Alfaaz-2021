@@ -35,6 +35,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
+  text-transform: uppercase;
 }
 
 .tabs__logo__tab a {

@@ -6,7 +6,7 @@ const Navbar = (props) => {
     <div className="members__navbar">
       <select onChange={(e) => props.changeCurrentTab(e.target.value)}>
         {props.teamNames.map((ele) => {
-          const isSelected = ele === "Web Team" ? true : false;
+          const isSelected = ele === "Core Team" ? true : false;
           return (
             <option value={ele} selected={isSelected}>
               {ele}

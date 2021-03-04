@@ -7,9 +7,9 @@ import NavigationHelper from "../NavigationHelper";
 import members from "../../json/members.json";
 
 const Members = () => {
-  const [currentTab, setCurrentTab] = useState("Web Team");
+  const [currentTab, setCurrentTab] = useState("Core Team");
   const [activeTeam, setActiveTeam] = useState(
-    members.filter((ele) => ele.team === "Web Team")
+    members.filter((ele) => ele.team === "Core Team")
   );
   const changeCurrentTab = (tab) => {
     setCurrentTab(tab);
@@ -17,12 +17,31 @@ const Members = () => {
 
   useEffect(() => {
     setActiveTeam(members.filter((ele) => ele.team === currentTab));
-    return () => {};
+    return () => {
+      setActiveTeam(null);
+    };
   }, [currentTab]);
 
   const getTeams = (arr) => {
     const tempTeams = arr.map((ele) => ele.team);
     return [...new Set(tempTeams)];
+  };
+
+  const getMemberCards = () => {
+    return (
+      <React.Fragment>
+        {activeTeam.map((ele) => {
+          return (
+            <Member
+              imgSrc={ele.firebase}
+              name={ele.name}
+              position={ele.role}
+              linkedIn={ele.linkedin}
+            />
+          );
+        })}
+      </React.Fragment>
+    );
   };
   return (
     <React.Fragment>
@@ -32,18 +51,7 @@ const Members = () => {
         currentTab={currentTab}
         changeCurrentTab={changeCurrentTab}
       />
-      <div className="members">
-        {activeTeam.map((ele) => {
-          return (
-            <Member
-              imgSrc={ele.img}
-              name={ele.name}
-              position={ele.role}
-              linkedIn={ele.linkedIn}
-            />
-          );
-        })}
-      </div>
+      <div className="members">{getMemberCards()}</div>
       <Footer />
     </React.Fragment>
   );
