@@ -24,7 +24,7 @@ function Header({ opened }) {
         <NavLink className="navstyles" to="/members">
           <div className="tabs__logo__tab ">Members</div>
         </NavLink>
-        <a className="navstyles" href="https://kreiva.tk/media/brochure.pdf">
+        <a className="navstyles" href="https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/brochure%2FAlfaaz%20Brochure_compressed.pdf?alt=media&token=97d13bc6-9d35-49e8-bd94-925a79e9747a">
           <div className="tabs__logo__tab ">BROCHURE</div>
         </a>
       </div>
