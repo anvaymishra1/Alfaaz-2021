@@ -24,7 +24,7 @@ function Header({ opened }) {
         <NavLink className="navstyles" to="/members">
           <div className="tabs__logo__tab ">MEMBERS</div>
         </NavLink>
-        <a className="navstyles" href="https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/brochure%2FAlfaaz%20Brochure_compressed.pdf?alt=media&token=97d13bc6-9d35-49e8-bd94-925a79e9747a">
+        <a className="navstyles" href="https://firebasestorage.googleapis.com/v0/b/alfaaz-a71da.appspot.com/o/brochure%2FAlfaaz%20Brochure_compressed%20(1).pdf?alt=media&token=a04e7df0-fa77-42a7-ac16-9337a310d16d">
           <div className="tabs__logo__tab ">BROCHURE</div>
         </a>
       </div>
