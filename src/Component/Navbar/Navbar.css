@@ -41,7 +41,7 @@
 
 @media screen and (max-width:800px){
   .members__navbar {
-    width: 200px;
+    width: 250px;
     border-bottom: 3px solid #ff6b71;
   }
 }
