@@ -30,7 +30,9 @@ function Header({ opened }) {
       </div>
       <div className="mobile-tabs-header">
         <div className="mobile__tabs__logo">
+        <NavLink to = "/">
           <img src={alfaazlogo} alt="tabs icon" width="100%" height="100%" />
+          </NavLink>
         </div>
 
         <div onClick={opened} className="hamburger-tab">

@@ -16,13 +16,13 @@ The festival offers a unique opportunity to hear some of the greatest contempora
           <img src="/media/booklogo.svg" alt="books-logo" />
           <section className="About--imgContainer--overlay">
             <p className="About--imgContainer--book--1">
-              60 K+<span>worth prize to win</span>
+              25 K+<span>worth prize to win</span>
             </p>
             <p className="About--imgContainer--book--1">
-            14 D+<span>long fest</span>
+            7 D+<span>long fest</span>
             </p>
             <p className="About--imgContainer--book--1">
-            20+<span>events to participate</span>
+            8+<span>events to participate</span>
             </p>
           </section>
         </div>
