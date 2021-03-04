@@ -1,0 +1,50 @@
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 35%;
+  padding-right: 35%;
+  margin-top: 50px;
+  font-size: 50px;
+  z-index: 1000;
+  text-align: center;
+}
+
+.s {
+  color: #2f1728;
+  transition: 0.3s ease;
+}
+
+.s:hover {
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 57.1px;
+    font-size: 24px;
+    margin: auto;
+    width: 400px;
+    font-size: 50px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 57.1px;
+    font-size: 24px;
+    margin: auto;
+    width: 200px;
+    font-size: 50px;
+  }
+
+}

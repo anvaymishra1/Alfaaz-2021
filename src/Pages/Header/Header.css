@@ -1,0 +1,106 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  background-color: #fff5da;
+
+  color: white;
+}
+
+.navstyles {
+  display: flex;
+  color: #fa6d75;
+  text-decoration: none;
+}
+.logo-img {
+  margin: 20px;
+}
+
+.tabs__logo {
+  height: 116px;
+  width: 194px;
+  padding-top: 10px;
+}
+
+.tabs__logo__tab {
+  align-self: center;
+  padding: 20px 25px;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  font-family: Manrope, "Segoe UI";
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.tabs__logo__tab a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active {
+  /* border-bottom: 5px solid #fa6d75; */
+}
+
+.tabs__logo__tab:hover {
+  border-bottom: 5px solid #fa6d75;
+  cursor: pointer;
+}
+
+.mobile-tabs-header {
+  width: 100%;
+
+  padding-top: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 8;
+}
+.mobile__tabs__logo {
+  height: 60px;
+  width: 30px;
+}
+
+.blank {
+  color: #fa6d75;
+  height: 30px;
+  width: 40px;
+}
+.hamburger-tab {
+  position: absolute;
+  left: 10px;
+}
+
+.hamburger {
+  color: #821169;
+  font-size: 20px;
+  padding-right: 15.5px;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 600px) {
+  .mobile__tabs {
+    display: none;
+  }
+  .mobile-tabs-header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tabs__logo__tab {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tabs {
+    display: none;
+    font-size: 2000px;
+  }
+}

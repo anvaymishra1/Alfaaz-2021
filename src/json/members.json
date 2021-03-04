@@ -1,0 +1,44 @@
+{
+  "members": [
+    {
+      "id": 0,
+      "name": "Anvay Mishra",
+      "team": "web",
+      "linkedIn": "",
+      "img": "https://avatars.githubusercontent.com/u/48328634?s=400&u=90d8782bc0313ddd7cfdab15dbdea2e87fe91000&v=4",
+      "role": "Lead"
+    },
+    {
+      "id": 1,
+      "name": "Tanmay Ambadkar",
+      "team": "web",
+      "linkedIn": "",
+      "img": "https://avatars.githubusercontent.com/u/42721553?s=400&u=cff475317d32ba4c2d8a13ff45fb8c36c01e2ebb&v=4",
+      "role": "Backend Engineer"
+    },
+    {
+      "id": 2,
+      "name": "Anuj Puri",
+      "team": "web",
+      "linkedIn": "",
+      "img": "https://avatars.githubusercontent.com/u/42184782?s=400&u=c0cf2ed9d3ff8354447140e8d2eea59902fafc44&v=4",
+      "role": "Front-end Engineer"
+    },
+    {
+      "id": 3,
+      "name": "Adity Prakash",
+      "team": "web",
+      "linkedIn": "",
+      "img": "https://avatars.githubusercontent.com/u/42460356?s=400&u=ee6317e4187856e8750c4dec18fc94b0225dcd7d&v=4",
+      "role": "Front-end Engineer"
+    },
+    {
+      "id": 4,
+      "name": "Anshuman singh",
+      "team": "web",
+      "linkedIn": "",
+      "img": "https://avatars.githubusercontent.com/u/56184217?s=400&u=b96279709378a550c556e6cd9deb8f2a472bc4be&v=4",
+      "role": "Front-end Developer"
+    }
+  ]
+}

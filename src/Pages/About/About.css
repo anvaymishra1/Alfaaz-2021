@@ -1,0 +1,118 @@
+.About__root {
+  padding-left: 113px;
+  font-family: Manrope;
+  color: #2f1728;
+  overflow-x: hidden;
+}
+
+.About__root--title {
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 13px;
+  color: #ff8d8b;
+  border-bottom: solid 5px #ff6b71;
+  width: max-content;
+  line-height: 30px;
+}
+
+.About--textContainer {
+  margin-top: 52px;
+}
+
+.About--container {
+  width: 100%;
+  display: flex;
+}
+.About--textContainer {
+  width: 40%;
+  padding: 0 16px;
+}
+.About--imgContainer {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  max-width: 675px;
+}
+
+.About--imgContainer > img {
+  top: 0;
+  width: 100%;
+  max-height: 300px;
+}
+
+.About--imgContainer--overlay {
+  font-family: Homenaje;
+  padding: 10px 0;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between;
+  left: 15%;
+}
+
+.About--imgContainer--overlay > :nth-child(even) {
+  position: relative;
+  left: 10%;
+}
+.About--imgContainer--overlay > :last-child {
+  position: relative;
+  left: 40%;
+}
+
+.About--imgContainer--book--1 {
+  display: flex;
+  font-size: 64px;
+  justify-content: center;
+  font-weight: normal;
+}
+
+.About--imgContainer--book--1 > span {
+  font-size: 36px;
+  margin: auto 0;
+}
+@media only screen and (max-width: 1100px) {
+  .About--imgContainer--book--1 {
+    font-size: 56px;
+  }
+
+  .About--imgContainer--book--1 > span {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .About__root {
+    padding: 0 10px;
+  }
+  .About--container {
+    flex-direction: column;
+  }
+  .About__root--title {
+    font-size: 18px;
+  }
+  .About--textContainer {
+    width: auto;
+  }
+  .About--imgContainer {
+    margin-top: 80px;
+    width: 331.78px;
+    position: relative;
+    height: 147.29px;
+    margin-left: 100%;
+    transform: translateX(-90%);
+  }
+  .About--imgContainer > img {
+    height: 100%;
+  }
+
+  .About--imgContainer--book--1 {
+    font-size: 30px;
+  }
+
+  .About--imgContainer--book--1 > span {
+    font-size: 18px;
+  }
+}
