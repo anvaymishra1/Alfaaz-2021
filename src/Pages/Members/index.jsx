@@ -45,7 +45,7 @@ const Members = () => {
   };
   return (
     <React.Fragment>
-      <NavigationHelper />
+      <NavigationHelper home={false} events={false} members={true} />
       <Navbar
         teamNames={getTeams(members)}
         currentTab={currentTab}
