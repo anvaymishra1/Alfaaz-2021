@@ -51,7 +51,7 @@ function Header(props) {
           </NavLink>
         </div>
 
-        <div onClick={props} className="hamburger-tab">
+        <div onClick={props.opened} className="hamburger-tab">
           <i className="fa fa-bars hamburger"></i>
         </div>
       </div>
