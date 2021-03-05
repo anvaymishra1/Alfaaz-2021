@@ -14,7 +14,7 @@ function Landing() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("March 10,2021 00:00:00").getTime();
+    const countDownDate = new Date("March 8,2021 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -50,18 +50,20 @@ function Landing() {
           </div>
 
           <div className="border-line"></div>
-            <div className="main-section">
+          <div className="main-section">
             <div className="landing__text--font landing__text--section">
               ALFAAZ
             </div>
-             <div className="landing__text--font landing__text--virtual">
+            <div className="landing__text--font landing__text--virtual">
               A Virtual Fest
             </div>
-<div className="timer">
+            <div className="timer">
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
-                    <span className="time-text">{parseInt(timerDays / 10)}</span>
+                    <span className="time-text">
+                      {parseInt(timerDays / 10)}
+                    </span>
                   </div>
                   <div className="box2">
                     <span className="time-text">{timerDays % 10}</span>
@@ -74,7 +76,9 @@ function Landing() {
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
-                    <span className="time-text">{parseInt(timerHours / 10)}</span>
+                    <span className="time-text">
+                      {parseInt(timerHours / 10)}
+                    </span>
                   </div>
                   <div className="box2">
                     <span className="time-text">{timerHours % 10}</span>
@@ -83,30 +87,34 @@ function Landing() {
                 <div className="time-content">
                   <p>HOURS</p>
                 </div>
-             </div>
-             <div className="timer-style">
+              </div>
+              <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
-                    <span className="time-text">{parseInt(timerMinutes / 10)}</span>
+                    <span className="time-text">
+                      {parseInt(timerMinutes / 10)}
+                    </span>
                   </div>
                   <div className="box2">
                     <span className="time-text">{timerMinutes % 10}</span>
                   </div>
                 </div>
-            <div className="time-content">
+                <div className="time-content">
                   <p>MINUTES</p>
                 </div>
               </div>
               <div className="timer-style">
                 <div className="timer-box">
                   <div className="box1">
-                    <span className="time-text">{parseInt(timerSeconds / 10)}</span>
+                    <span className="time-text">
+                      {parseInt(timerSeconds / 10)}
+                    </span>
                   </div>
                   <div className="box2">
                     <span className="time-text">{timerSeconds % 10}</span>
                   </div>
                 </div>
-              <div className="time-content">
+                <div className="time-content">
                   <p>SECONDS</p>
                 </div>
               </div>
@@ -115,7 +123,7 @@ function Landing() {
           <div className="handle-section">
             <Handle />
           </div>
-             <div className="border-line2"></div>
+          <div className="border-line2"></div>
           <div className="lower-img">
             <img src={hindilogo} className="hindi-img" alt="hindi A" />
           </div>
