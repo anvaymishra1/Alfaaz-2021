@@ -9,7 +9,11 @@ import NavigationHelper from "../NavigationHelper";
 const Home = () => {
   return (
     <div>
-      <NavigationHelper></NavigationHelper>
+      <NavigationHelper
+        home={true}
+        events={false}
+        members={false}
+      ></NavigationHelper>
       <Landing />
       <About />
       <Gallery />

@@ -9,8 +9,8 @@ import events from "../../json/events.json";
 const EventsTimeline = () => {
   return (
     <div>
-      <NavigationHelper />
-      <EventHeader />
+      <NavigationHelper home={false} events={true} members={false} />
+      <EventHeader active={true} />
       <div className="heading">EVENTS </div>
       <React.Fragment>
         {events.map((card) => (
