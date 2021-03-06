@@ -40,18 +40,17 @@
 }
 
 .GalleryHead {
-  width: 110px;
-  text-align: center;
-  color: #fff5da;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 600;
+  font-style: normal;
   font-size: 22px;
-  text-transform: uppercase;
-  margin-left: 45px;
-  padding: 5px 10px;
-  border-bottom: 4px solid #fff5da;
-  margin-bottom: 84px;
+  font-weight: 600;
+  padding: 13px;
+  color: #ff8d8b;
+  border-bottom: solid 5px #ff6b71;
+  width: max-content;
+  line-height: 30px;
+  margin-left: 110px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .midContainer {
@@ -184,5 +183,4 @@
   .mobileGallery {
     display: flex;
   }
-
 }

@@ -63,21 +63,3 @@ function EventPoster() {
 }
 
 export default EventPoster;
-
-// function changeCurrentSlideNext() {
-//   if (this.state.currentSlide < this.props.events.length - 2) {
-//     const currentSlide = this.state.currentSlide + 1;
-//     this.setState({ currentSlide: currentSlide });
-//   } else {
-//     this.setState({ currentSlide: 1 });
-//   }
-// }
-//
-// function changeCurrentSlideBack() {
-//   if (this.state.currentSlide > 1) {
-//     const currentSlide = this.state.currentSlide - 1;
-//     this.setState({ currentSlide: currentSlide });
-//   } else {
-//     this.setState({ currentSlide: this.props.events.length - 2 });
-//   }
-// }
