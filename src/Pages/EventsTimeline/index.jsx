@@ -13,21 +13,19 @@ const EventsTimeline = () => {
       <EventHeader active={true} />
       <div className="heading">EVENTS </div>
       <React.Fragment>
-        {events
-          .sort((a, b) => (a.name > b.name ? 1 : -1))
-          .map((card) => (
-            <Cards
-              name={card.name}
-              long_description={card.long_description}
-              worth={card.prize}
-              venue={card.venue}
-              date={card.start_date + ", " + card.start_time}
-              convenor={card.convenor}
-              coconvenor={card.co_convenor}
-              members={card.members}
-              reg_link={card.reg_link}
-            />
-          ))}
+        {events.map((card) => (
+          <Cards
+            name={card.name}
+            long_description={card.long_description}
+            worth={card.prize}
+            venue={card.venue}
+            date={card.start_date + ", " + card.start_time}
+            convenor={card.convenor}
+            coconvenor={card.co_convenor}
+            members={card.members}
+            reg_link={card.reg_link}
+          />
+        ))}
       </React.Fragment>
       <Footer />
     </div>
