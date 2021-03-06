@@ -5,6 +5,7 @@ import About from "../About";
 import Gallery from "../Gallery";
 import Landing from "../Landing";
 import NavigationHelper from "../NavigationHelper";
+import EventPoster from "../../Component/EventPoster";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       ></NavigationHelper>
       <Landing />
       <About />
+      <EventPoster />
       <Gallery />
       <Footer />
     </div>
