@@ -86,9 +86,9 @@
 }
 .border-line {
   position: absolute;
-  width: 450px;
+  width: 360px;
   height: 0px;
-  left: -55px;
+  left: -5px;
   top: 0px;
 
   border: 1px solid #2f1728;

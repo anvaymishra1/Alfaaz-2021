@@ -1,0 +1,74 @@
+.EventsHead {
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 13px;
+  color: #ff8d8b;
+  border-bottom: solid 5px #ff6b71;
+  width: max-content;
+  line-height: 30px;
+  margin-left: 110px;
+}
+
+.CarouselParent {
+  padding: 0 6vw;
+  padding-top: 2vw;
+}
+.poster {
+  padding-top: 30px;
+}
+
+.CarouselChildren {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Slider {
+  width: 400px;
+  height: 500px;
+}
+img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .EventsHead {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .EventsHead {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .CarouselParent {
+    display: none;
+  }
+}
+
+.CarouselParent--mobile {
+  padding: 0 6vw;
+  padding-top: 4vw;
+}
+
+.CarouselChildren--mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Slider--mobile {
+  width: 100%;
+}
+
+@media (min-width: 601px) {
+  .CarouselParent--mobile {
+    display: none;
+  }
+}

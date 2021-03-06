@@ -3,45 +3,6 @@ import "./Cards.css";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
-const CardButton1 = withStyles({
-  root: {
-    boxShadow: "none",
-    textTransform: "none",
-    fontSize: 16,
-    padding: "6px 12px",
-    border: "1px solid",
-    lineHeight: 1.5,
-    backgroundColor: "#2F1728",
-    borderColor: "#2F1728",
-    borderRadius: "20px",
-    width: "200px",
-    fontFamily: [
-      "-apple-system",
-      "BlinkMacSystemFont",
-      '"Segoe UI"',
-      "Roboto",
-      '"Helvetica Neue"',
-      "Arial",
-      "sans-serif",
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
-    ].join(","),
-    "&:hover": {
-      backgroundColor: "#2F1728",
-      borderColor: "#2F1728",
-      boxShadow: "none",
-    },
-    "&:active": {
-      boxShadow: "none",
-      backgroundColor: "#2F1728",
-      borderColor: "#2F1728",
-    },
-    "&:focus": {
-      boxShadow: "0 0 0 0.2rem rgba(0,123,255,.5)",
-    },
-  },
-})(Button);
 const CardButton2 = withStyles({
   root: {
     boxShadow: "none",
@@ -120,16 +81,6 @@ function Cards(props) {
           <div className="content6 content-styles"> {props.members} </div>
         </div>
         <div className="button">
-          <div className="button1">
-            <CardButton1
-              variant="contained"
-              color="primary"
-              disableRipple
-              className={classes.margin}
-            >
-              Rules and Regulations
-            </CardButton1>
-          </div>
           <div className="button2">
             <CardButton2
               variant="contained"
