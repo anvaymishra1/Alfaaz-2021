@@ -22,13 +22,13 @@ function EventPoster() {
         >
           <div className="CarouselChildren">
             <Slider className="Slider">
-              <img src={mainAlfaaz} alt="poster-img" />
+              <img className="posterStyle" src={mainAlfaaz} alt="poster-img" />
             </Slider>
             <Slider className="Slider">
-              <img src={artist} alt="poster-img" />
+              <img className="posterStyle" src={artist} alt="poster-img" />
             </Slider>
             <Slider className="Slider">
-              <img src={openMic} alt="poster-img" />
+              <img className="posterStyle" src={openMic} alt="poster-img" />
             </Slider>
           </div>
         </CarouselProvider>
@@ -47,13 +47,18 @@ function EventPoster() {
         >
           <div className="CarouselChildren--mobile">
             <Slider className="Slider--mobile">
-              <img src={mainAlfaaz} alt="poster-img" />
+              <img className="posterStyle" src={mainAlfaaz} alt="poster-img" />
             </Slider>
             <Slider className="Slider--mobile">
-              <img src={artist} alt="poster-img" />
+              <img className="posterStyle" src={artist} alt="poster-img" />
             </Slider>
             <Slider className="Slider--mobile">
-              <img src={openMic} height="150px" alt="poster-img" />
+              <img
+                className="posterStyle"
+                src={openMic}
+                height="150px"
+                alt="poster-img"
+              />
             </Slider>
           </div>
         </CarouselProvider>
