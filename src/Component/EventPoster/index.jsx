@@ -2,7 +2,7 @@ import React from "react";
 import { CarouselProvider, Slider } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import mainAlfaaz from "../../Assets/alfaazmain.jpg";
-import openMic from "../../Assets/OpenMicFinal.png";
+import openMic from "../../Assets/OpenMicFinal1.png";
 import artist from "../../Assets/artist1.png";
 import "./EventPoster.css";
 
@@ -47,16 +47,23 @@ function EventPoster() {
         >
           <div className="CarouselChildren--mobile">
             <Slider className="Slider--mobile">
-              <img className="posterStyle" src={mainAlfaaz} alt="poster-img" />
-            </Slider>
-            <Slider className="Slider--mobile">
-              <img className="posterStyle" src={artist} alt="poster-img" />
+              <img
+                className="posterStyle--mobile posterStyle"
+                src={mainAlfaaz}
+                alt="poster-img"
+              />
             </Slider>
             <Slider className="Slider--mobile">
               <img
-                className="posterStyle"
+                className="posterStyle--mobile posterStyle"
+                src={artist}
+                alt="poster-img"
+              />
+            </Slider>
+            <Slider className="Slider--mobile">
+              <img
+                className="posterStyle--mobile posterStyle"
                 src={openMic}
-                height="150px"
                 alt="poster-img"
               />
             </Slider>
