@@ -106,9 +106,9 @@
     "members": "Raghvi Saxena"
   },
   {
-    "name": "How Lit are you?",
-    "long_description": "A day without laughter is a day wasted.",
-    "start_date": "08/03/2021",
+    "name": "Guess the Gibberish - How Lit are you? (Fun Events)",
+    "long_description": "In ‘Guess the Gibberish’ a player guesses a word or phrase which are gibberish and answer it before the timer goes off.",
+    "start_date": "10/03/2021",
     "start_time": "12:00 AM",
     "end_date": "12/03/2021",
     "end_time": "11:59 PM",
@@ -117,7 +117,22 @@
     "reg_link": "https://docs.google.com/forms/d/e/1FAIpQLSdGFr1a-MjEyqELqnQFxFKCnA8BfsJyfT1ZxtiP7bg6D4EHjg/viewform?usp=sf_link",
     "contact": "8871988837",
     "prize": "1200",
-    "venue": "Google Form",
-    "members": "Ritik Rawat"
+    "venue": "Google Meet",
+    "members": "Raghvi Saxena"
+  },
+  {
+    "name": "PUNTENDED - How Lit are you? (Fun Events)",
+    "long_description": "We all love and appreciate good humor, and everyone knows there is no better way to showcase your humor in one-liner formats than Puns.So here's Puntended.You only need to follow Alfaaz on Twitter and stay prepared with your best set of Puns.",
+    "start_date": "08/03/2021",
+    "start_time": "12:00 AM",
+    "end_date": "12/03/2021",
+    "end_time": "11:59 PM",
+    "convenor": "Abhinav Prakash",
+    "co_convenor": "Abhijeet Tamrakar",
+    "reg_link": "https://twitter.com/alfaaz_iiitv",
+    "contact": "8871988837",
+    "prize": "-",
+    "venue": "Twitter",
+    "members": "Anurag Ojha"
   }
 ]
