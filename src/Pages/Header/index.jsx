@@ -39,7 +39,7 @@ function Header(props) {
         </NavLink>
         <a
           className="navstyles"
-          href="https://firebasestorage.googleapis.com/v0/b/alfaaz-brochure.appspot.com/o/Alfaaz%20Brochure_compressed%20(1).pdf?alt=media&token=87c0e53e-c02b-4c0b-ab80-6aa6a2e1557a"
+          href="https://firebasestorage.googleapis.com/v0/b/alfaaz-brochure.appspot.com/o/Alfaaz%20Brochure(1).pdf?alt=media&token=fe5f063b-467c-4710-8839-ac54d0f5fef6"
         >
           <div className="tabs__logo__tab ">BROCHURE</div>
         </a>
